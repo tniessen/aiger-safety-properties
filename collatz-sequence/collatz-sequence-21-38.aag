@@ -694,6 +694,6 @@ afterwards).
 No such overflow can occur. The maximum trajectory point is 156914378224, which
 is less than 274877906944.
 --------------------------------------------------------------------------------
-This file is part of https://github.com/tniessen/aiger-safety-property-examples.
+This file is part of https://github.com/tniessen/aiger-safety-properties.
 ---
 The output variable is UNSATISFIABLE.

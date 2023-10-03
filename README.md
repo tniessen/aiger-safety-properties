@@ -1,4 +1,7 @@
-# AIGER safety property examples
+# AIGER safety properties
+
+> No revision or version is assigned to this commit. Please refer to the list of
+> [releases](https://github.com/tniessen/aiger-safety-properties/releases).
 
 All files in this repository were designed from scratch and were not derived
 from other input formats. Both unsatisfiable and satisfiable instances range

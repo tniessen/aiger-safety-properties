@@ -5576,6 +5576,6 @@ bit is set if and only if the product is 20996011.
 Because 20996011 is prime and greater than 16777215, it cannot be represented as
 the product of two 24-bit integers. Thus, the output bit is never set.
 --------------------------------------------------------------------------------
-This file is part of https://github.com/tniessen/aiger-safety-property-examples.
+This file is part of https://github.com/tniessen/aiger-safety-properties.
 ---
 The output variable is UNSATISFIABLE.

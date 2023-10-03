@@ -235,6 +235,6 @@ products X * Y and Y * X using separate multiplication circuits and sets the
 output bit to 1 if and only if the results differ. Finally, the value of X is
 copied to Y before the next iteration.
 --------------------------------------------------------------------------------
-This file is part of https://github.com/tniessen/aiger-safety-property-examples.
+This file is part of https://github.com/tniessen/aiger-safety-properties.
 ---
 The output variable is UNSATISFIABLE.

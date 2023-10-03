@@ -2636,6 +2636,6 @@ The output bit is set if and only if the product is 65537.
 Because 65537 is prime and greater than 65535, it cannot be represented as the
 product of 16-bit integers. Thus, the output bit is never set.
 --------------------------------------------------------------------------------
-This file is part of https://github.com/tniessen/aiger-safety-property-examples.
+This file is part of https://github.com/tniessen/aiger-safety-properties.
 ---
 The output variable is UNSATISFIABLE.

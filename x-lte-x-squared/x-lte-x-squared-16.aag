@@ -2371,6 +2371,6 @@ LSB to MSB): 2, 0, 501, 803, 1103, 1401, 1697, 1991, 2283, 2573, 2861, 3147,
 3431, 3713, 3993, 4271, 4287, 4305, 4323, 4341, 4359, 4377, 4395, 4413, 4431,
 4449, 4467, 4485, 4503, 4521, 4539, 4543.
 --------------------------------------------------------------------------------
-This file is part of https://github.com/tniessen/aiger-safety-property-examples.
+This file is part of https://github.com/tniessen/aiger-safety-properties.
 ---
 The output variable is UNSATISFIABLE.

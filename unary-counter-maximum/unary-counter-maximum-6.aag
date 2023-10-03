@@ -19,6 +19,6 @@ c
 This circuit is a unary counter that counts up to 6. The output bit is set to 1
 when the counter reaches its maximum value, that is, during iteration 5.
 --------------------------------------------------------------------------------
-This file is part of https://github.com/tniessen/aiger-safety-property-examples.
+This file is part of https://github.com/tniessen/aiger-safety-properties.
 ---
 The output variable is SATISFIABLE.

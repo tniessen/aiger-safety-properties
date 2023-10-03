@@ -781,6 +781,6 @@ The shortest counterexample is the prime factorization of 470184984576, which is
 3**15 * 2**15. No shorter sequence of inputs can lead to this product because
 any combination of these prime factors exceeds 3.
 --------------------------------------------------------------------------------
-This file is part of https://github.com/tniessen/aiger-safety-property-examples.
+This file is part of https://github.com/tniessen/aiger-safety-properties.
 ---
 The output variable is SATISFIABLE.

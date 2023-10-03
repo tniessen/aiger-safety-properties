@@ -574,6 +574,6 @@ The result of the multiplication is represented by the following literals (from
 LSB to MSB): 2, 0, 229, 371, 511, 649, 785, 919, 935, 953, 971, 989, 1007, 1025,
 1043, 1047.
 --------------------------------------------------------------------------------
-This file is part of https://github.com/tniessen/aiger-safety-property-examples.
+This file is part of https://github.com/tniessen/aiger-safety-properties.
 ---
 The output variable is UNSATISFIABLE.

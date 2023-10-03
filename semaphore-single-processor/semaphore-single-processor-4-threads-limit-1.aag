@@ -567,6 +567,6 @@ happen:
 * an arithmetic overflow occurs when changing the semaphore count, or
 * a thread is sleeping for no reason.
 --------------------------------------------------------------------------------
-This file is part of https://github.com/tniessen/aiger-safety-property-examples.
+This file is part of https://github.com/tniessen/aiger-safety-properties.
 ---
 The output variable is UNSATISFIABLE.

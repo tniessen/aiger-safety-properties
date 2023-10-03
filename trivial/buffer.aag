@@ -7,6 +7,6 @@ c
 --------------------------------------------------------------------------------
 This circuit simply redirects the input to the output.
 --------------------------------------------------------------------------------
-This file is part of https://github.com/tniessen/aiger-safety-property-examples.
+This file is part of https://github.com/tniessen/aiger-safety-properties.
 ---
 The output variable is SATISFIABLE.

@@ -3055,6 +3055,6 @@ This circuit computes f(x) = x**2 - 50x + 625 for integer values of x from 0 to
 255. The output bit is set to 1 if f(x) = 0 and x is not 25, which never
 happens.
 --------------------------------------------------------------------------------
-This file is part of https://github.com/tniessen/aiger-safety-property-examples.
+This file is part of https://github.com/tniessen/aiger-safety-properties.
 ---
 The output variable is UNSATISFIABLE.

@@ -8769,6 +8769,6 @@ Because 2147483647 is prime and greater than 1073741823, it cannot be
 represented as the product of two 30-bit integers. Thus, the output bit is never
 set.
 --------------------------------------------------------------------------------
-This file is part of https://github.com/tniessen/aiger-safety-property-examples.
+This file is part of https://github.com/tniessen/aiger-safety-properties.
 ---
 The output variable is UNSATISFIABLE.

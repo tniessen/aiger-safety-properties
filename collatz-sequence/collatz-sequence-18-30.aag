@@ -555,6 +555,6 @@ The smallest input that causes such an overflow is 77671 (after 71 steps). The
 input that causes an overflow within the smallest number of steps is 239231
 (after 47 steps).
 --------------------------------------------------------------------------------
-This file is part of https://github.com/tniessen/aiger-safety-property-examples.
+This file is part of https://github.com/tniessen/aiger-safety-properties.
 ---
 The output variable is SATISFIABLE.

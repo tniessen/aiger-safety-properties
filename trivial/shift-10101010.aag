@@ -30,6 +30,6 @@ This circuit has a single input bit, which is shifted into an 8-bit register at
 each step. The output bit is set if and only if the register's value is
 10101010.
 --------------------------------------------------------------------------------
-This file is part of https://github.com/tniessen/aiger-safety-property-examples.
+This file is part of https://github.com/tniessen/aiger-safety-properties.
 ---
 The output variable is SATISFIABLE.

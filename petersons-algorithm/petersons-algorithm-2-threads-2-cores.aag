@@ -162,6 +162,6 @@ it depends on the "random" input.
 The output bit is set only if both threads are within the critical section at
 the same time, which should never happen.
 --------------------------------------------------------------------------------
-This file is part of https://github.com/tniessen/aiger-safety-property-examples.
+This file is part of https://github.com/tniessen/aiger-safety-properties.
 ---
 The output variable is UNSATISFIABLE.

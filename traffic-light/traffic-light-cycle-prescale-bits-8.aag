@@ -89,6 +89,6 @@ follows a standard cycle: red, red and yellow, green, yellow, red.
 The output bit is set whenever both the red and the green signal are on at the
 same time, which never happens.
 --------------------------------------------------------------------------------
-This file is part of https://github.com/tniessen/aiger-safety-property-examples.
+This file is part of https://github.com/tniessen/aiger-safety-properties.
 ---
 The output variable is UNSATISFIABLE.

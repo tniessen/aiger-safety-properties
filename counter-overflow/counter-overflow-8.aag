@@ -51,6 +51,6 @@ This circuit is a simple 8-bit counter that increments the stored value by one
 during each transition. The single output bit is set to indicate an overflow
 (i.e., every 256 iterations).
 --------------------------------------------------------------------------------
-This file is part of https://github.com/tniessen/aiger-safety-property-examples.
+This file is part of https://github.com/tniessen/aiger-safety-properties.
 ---
 The output variable is SATISFIABLE.
