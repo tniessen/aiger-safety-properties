@@ -1,4 +1,6 @@
-import * as assert from 'node:assert';
+import { seq } from './utils.js';
+
+import assert from 'node:assert';
 
 export class SlowSimulator {
   #inputs;
