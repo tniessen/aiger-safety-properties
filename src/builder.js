@@ -1,4 +1,4 @@
-import { seq } from './utils.js';
+import { lineWrapText, seq } from './utils.js';
 
 import assert from 'node:assert';
 
@@ -299,9 +299,6 @@ export class CircuitBuilder {
   }
 
   #formatComment(comment) {
-    return comment.replace(/(?![^\n]{1,80}$)([^\n]{1,80})\s/g, '$1\n')
-                  .trim()
-                  .replace(/^[ \t]+|[ \t]+$/gm, '')
-                  .replace(/\n\n+/g, '\n---\n');
+    return lineWrapText(comment).replace(/\n\n+/g, '\n---\n');
   }
 };

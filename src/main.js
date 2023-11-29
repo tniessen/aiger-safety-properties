@@ -2,6 +2,8 @@ import assert from 'node:assert';
 import { mkdir, readdir, writeFile } from 'node:fs/promises';
 import { basename } from 'node:path';
 
+import { lineWrapText } from './utils.js';
+
 const safe = [], unsafe = [];
 const outputDir = 'properties';
 
@@ -22,8 +24,8 @@ for (const recipeName of await readdir(recipesURL)) {
   }
 }
 
-console.log(
-    `\nThis repository contains ${safe.length + unsafe.length} AIGER files ` +
+console.log(`\n${lineWrapText(
+    `This repository contains ${safe.length + unsafe.length} AIGER files ` +
     `that each have a single output bit, which acts as a bad state detector. ` +
     `In other words, if the safety property represented by the AIGER file ` +
     `holds, then its output variable is unsatisfiable. If the safety ` +
@@ -31,4 +33,4 @@ console.log(
     `input sequence.\n\nOf the ${safe.length + unsafe.length} provided ` +
     `files, ${safe.length} files have an unsatisfiable output variable. The ` +
     `remaining ${unsafe.length} files have a satisfiable output variable. ` +
-    `The last line of each \`.aag\` file includes the correct result.`);
+    `The last line of each \`.aag\` file includes the correct result.`)}`);

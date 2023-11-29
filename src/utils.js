@@ -31,3 +31,9 @@ export function intToBitsLE(value, width) {
 
   return bits;
 }
+
+export function lineWrapText(text) {
+  return text.replace(/(?![^\n]{1,80}$)([^\n]{1,80})\s/g, '$1\n')
+             .trim()
+             .replace(/^[ \t]+|[ \t]+$/gm, '');
+}
